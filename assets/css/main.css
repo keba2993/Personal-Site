@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -634,6 +634,14 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+
+/* Embedded Content */
+
+  .embedded-content {
+    max-width: 100%;
+    width: 40rem;
+    height: 40rem;
+  }
 
 /* Image */
 
@@ -1139,14 +1147,12 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-image: url(../../img/kevin.JPG);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
 			z-index: 2;
+      filter: opacity(0.6) brightness(0.5);
 		}
 
 		#bg:after {

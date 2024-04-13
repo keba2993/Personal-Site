@@ -6,13 +6,15 @@
 -->
 <html>
 	<head>
-		<title>About Me</title>
+		<title>Personal Digital Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+
+    <div id="background-image"></div>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -25,19 +27,18 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Kevin Barone</h1>
-								<p>I am a Junior at the University of Colorado - Boulder,  currently studying Computer Science with a minor in Business.</br> 
-                  I have played soccer since I was three years old and I currently play for the CU Boulder Gold team.</br> I was born and raised 
-                  in Colorado Springs, CO. I am studying Computer Science because my dad is a Software Architect and </br>watching him work made me
-                  want to pursue a career in the same field.</p>
+								<p>
+                  Hi, my name is Kevin Barone and I am a senior at the University of Colorado - Boulder currently pursuing a BS in Computer Science with a Minor in Business. I have a passion to pursue full-stack web/mobile development with the eventual goal of leading teams of software engineers that create simple and efficient solutions to complex technical issues.
+                </p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#education">Education</a></li>
+								<li><a href="#experience">Experience</a></li>
 								<li><a href="#projects">Projects</a></li>
 								<li><a href="#about">About Me</a></li>
-								<li><a href="#accounts">Accounts</a></li>
-								<li><a href="#elements">Resume</a></li>
+								<li><a href="#resume">Resume</a></li>
+								<li><a href="#contact">Contact Me</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -45,9 +46,9 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Education -->
-							<article id="education">
-								<h2 class="major">Education</h2>
+						<!-- Experience -->
+							<article id="experience">
+								<h2 class="major">Experience</h2>
                 <!-- two images with two paragraphs below to describe clubs, organizations, achievements and GPA for each -->
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
@@ -58,9 +59,34 @@
 							<article id="projects">
 								<h2 class="major">Projects</h2>
                 <!-- list of all projects that I have completed to date each with image, decription and link -->
+                <div style="margin-bottom: 2rem;">
+                  <h3>Sports Party</h3>
+                  <span class="image main"><img src="img/sports_party.PNG" alt="" /></span>
+                  <p>Sports Party is a Mario Party-inspired sports-themed board game created using C++ and QT Creator. Players are greeted with a series of welcome dialogs that allow them to select the number of players (1-4) for their game session. Players are then able to roll a dice and traverse the game board, picking up power-ups, as they race to the finish. The game concludes when a player reaches the finish line. My partner and I created this as a class project.</p>
+                  <a href="https://github.com/keba2993/Sports-Party">GitHub Repo</a>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                  <h3>CSP Games</h3>
+                  <span class="image main"><img src="img/csp_games.PNG" alt="" /></span>
+                  <p>CSP games is a Java-based application with a Java Swing GUI that allows users to login in with a unique username and select one of three tabletop games to play against an NPC. The three games implemented are BlackJack, Tic-tac-toe, and Connect-4. Scores are then saved and stored in CSV-based leaderboard files. The application makes use of five object-oriented design patterns including MVC, strategy, composite, singleton, and observer. I developed this as a final project for an object-oriented class with a partner.</p>
+                  <a href="">Sports Party Repo</a>
+                </div>
+
+                <h3>2048 - Tris</h3>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+                <a href="">Sports Party Repo</a>
+
+                <h3>DFS Inventory Tracker</h3>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+                <a href="">Sports Party Repo</a>
+
+                <h3>HackCU 007 - Slot Machine</h3>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+                <a href="">Sports Party Repo</a>
 							</article>
 
 						<!-- About -->
@@ -68,12 +94,24 @@
 								<h2 class="major">About Me</h2>
                 <!-- other info about me including hobbies and background -->
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<p>
+                  Throughout my college career I have gained experience with many programming languages, such as C++, C, and JavaScript, in various group and individual projects. These projects allowed me to develop and put into practice not only my technical skills, but also my leadership, project organization, team collaboration, and problem-solving skills.
+                  As a Software Engineer Intern at both Willowtree Apps and Nasdaq Inc., I was exposed to Agile development and CI/CD practices in a professional setting. I sharpened my abilities to work alongside other software engineers, to solve complex technical problems, and was introduced to mobile development on iOS and Android systems, test engineering, and full-stack web development using React.js and Java Spring Boot. I now look to put all that I have learned into practice as a diligent full-stack web/mobile developer who delivers efficient and organized applications with a focus on unparalleled UI/UX.
+                  I consider myself to be a lifelong student, because I am always seeking to learn new technical skills and stay up to date on the latest frameworks and practices for web development. My experiences in being a captain for many soccer teams, organizing and leading events for my student ministry, and leading the project management efforts for my capstone project have also revealed a natural willingness and desire to take on the responsibility of leading any team that I am a part of. I'm thrilled to kick off my career in the software development industry utilizing my leadership and technical skills, alongside my longing to learn, to ensure the successful completion of any task set in front of me.
+                  The purpose of this digital portfolio is to showcase my personality and the skills I have obtained beyond the technical skills acquired through college and my internships. It serves as a more complete view of who I am and my aspirations and is meant to be an extension of my technical resume. Across the various pages you will find information about my hobbies, volunteer work, and technical work. These all point back to my eventual goal of becoming a seasoned full-stack web developer who leads teams of engineers.
+                </p>
 							</article>
 
 						<!-- Contact -->
-							<article id="accounts">
-								<h2 class="major">Accounts</h2>
+							<article id="resume">
+								<h2 class="major">Resume</h2>
+                <embed src="./assets/pdfs/Kevin_Barone_Resume.pdf" type="application/pdf" class="embedded-content" width="650" height="700">
+							</article>
+
+            <!-- Contact-->
+              <article id="contact">
+                <h2 class="major">Contact Me</h2>
+
                 <!-- list my accounts with clickable images and contact me form -->
                 <!-- LinkedIn, GitHub, Instagram, HackerRank-->
                 <ul class="icons">
@@ -103,11 +141,11 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-							</article>
+              </article>
 
 						<!-- Elements -->
 							<article id="elements">
-								<h2 class="major">Resume</h2>
+								<h2 class="major">Contact Me</h2>
 
 								<section>
 									<h3 class="major">Text</h3>
@@ -344,16 +382,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										</ul>
 									</form>
 								</section>
-
 							</article>
-
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Personal Digital Porfolio. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
-
 			</div>
 
 		<!-- BG -->
