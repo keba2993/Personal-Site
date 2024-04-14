@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -615,8 +615,8 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-family: 'Font Awesome 6 Free';
+      vertical-align: middle;
 		}
 
 		.icon > .label {
@@ -632,7 +632,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
 		}
 
 /* Embedded Content */
@@ -1335,9 +1335,9 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
+				text-transform: none;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
+				font-size: 1rem;
 				line-height: 2;
 			}
 
