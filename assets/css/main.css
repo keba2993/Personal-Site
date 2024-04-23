@@ -821,6 +821,7 @@ input[type="radio"] + label:before {
   display: block;
   margin: 2.5rem 0;
   width: 100%;
+  background-color: aliceblue;
 }
 
 .image.main img {
